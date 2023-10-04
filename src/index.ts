@@ -11,7 +11,7 @@ import {
 } from "./interfaces";
 import { TimeBased } from "./time-based/time-based";
 import { Encode32 } from "./utils/encode";
-import crypto from "crypto";
+import crypto from "node:crypto";
 import { HmacBased } from "./hmac-based/hmac-based";
 
 export const generateConfig = (config?: TotpConfig): ValidTotpConfig => {

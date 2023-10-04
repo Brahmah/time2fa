@@ -6,7 +6,7 @@ import {
 } from "../interfaces";
 import { generateConfig } from "../index";
 import { Decode32 } from "../utils/encode";
-import crypto from "crypto";
+import crypto from "node:crypto";
 import { ValidationError } from "../utils/validation-error";
 import { INVALID_SECRET_ERR } from "../utils/constants";
 
